@@ -1,0 +1,52 @@
+/*Reset basico*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Ajuda a deixar os elementos organizados dentro das caixas*/
+}
+
+/*estilizando o header*/
+
+header {
+    background-color: black;
+    padding: 1rem;
+    /*espaçamento interno*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /*sombra leve no header*/
+    position: sticky; /*utilizado para deixar o menu suspenso*/
+    top: 0; /*zerando a formatação/distancia em relação ao topo*/ 
+    left: 0; /*zerando a formatação/distancia em relação a esquerda*/
+    z-index: 999; /*eixo z utiizado para sobrepor outros elementos que estarão dentro do site / precisa ser um valor maior que zero*/
+
+}
+
+/*conteiner header*/
+.container-header {
+    display: flex; /*organiza os itens em linha*/
+    justify-content: space-evenly; /*logo a esquerda, botão a direita*/
+    align-items: center; /*alinha verticalmente*/
+    max-width: 1200px; min-width: ; /*limitando a largura maxima que a caixa do conteudo devera atingir*/
+    margin: 0 auto; /*centraliza na tela colocando margim 0 no top e bottom, e as laterais automatica*/
+    padding: 0 1rem; /*respiro lateral*/
+
+}
+
+/*estilizando a logo*/
+.logo {
+    height: 40px;
+    /*altura fixa*/
+    width: auto;
+    /*mantem proporção da imagem*/
+}
+
+/*botão do header*/
+.btn-header {
+    padding: 0.5rem 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor:pointer;
+}
