@@ -26,3 +26,13 @@ usamos display: flex no .container-header para facilitar o alinhamento horizonta
 
 por que max-width?
 o max-width: 1200px evita que o conteudo fique muito esticado em telas grandes e mantém o desing centrado com margin: 0 auto. A propriedade max-width define a largura maxima que um elemento pode ocupar. isso significa que o elemento pode diminuir de tamanho conforme necessario (em telas menores), mas nunca vai ultrapassar o valor definido.
+
+por que usar media query?
+a @media (max-width: 600px) permite que a estrutura mude para um layout vertical quando a tela for pequena (como no celular), otimizando a usabilidade.
+
+por que usar border-box?
+evita calculos complicados de largura.
+
+ajuda a manter o layout organizado.
+
+é muito usado em layouts responsivos, onde o espaço precisa ser bem controlado
