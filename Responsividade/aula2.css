@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2rem 1rem; /*preenchimento superior e inferior com (2rem), preenchimento laterais esquerda e direita*/
+    background-color: aquamarine;
+}
+
+.container {
+    padding: 5rem 2rem;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*fara com que as caixas possam ser quebradas se necessario (quando não houver espaço)*/
+    align-content: center; /*propriedade que sera usada para alinhar as caixas quando quebradas*/
+}
+
+.container div {
+    border: 2px solid orange; /*(2px = espessura da borda) (solid = tipo da borda) (orange = cor da borda)*/
+    width: 20rem; /*largura da caixa*/
+    height: 20rem; /*altura da caixa*/ 
+    margin: 10px; /*espaçamento de todos os lados externos da caixa usando o margin*/
+    min-width: 299px; /*limitando o tamanho minimo que a caixa tera (ela nao ficara menor que 299)*/
+}
+
+.sessao01 img{
+    width: 100%;
+    height: 50%;
+}
+
+
+.dombosco img {
+    width: 100%;
+    height: 50%;
+}
